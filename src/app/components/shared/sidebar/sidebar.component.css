@@ -1,0 +1,12 @@
+.sidebar{
+    display: flexbox;
+    height: 100%;
+    width: 40%;
+    background-color: black;
+}
+
+.sidebar a{
+    color:white; 
+    text-decoration: none;
+    margin: 10rem;
+}

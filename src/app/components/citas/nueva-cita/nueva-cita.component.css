@@ -1,0 +1,21 @@
+form{
+    width: 50%;
+    align-items: center;
+}
+.field-formulario{
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+.field-formulario legend{
+    color: white;
+    justify-content: center;
+}
+
+.campo input{
+    background-color: rgba(255, 255, 255, 0.658);
+    width: 40%;
+}
+
+.campo label{
+    color: white; 
+}

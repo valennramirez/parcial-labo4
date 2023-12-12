@@ -1,0 +1,26 @@
+h1{
+    color: black;
+    text-align: center;
+}
+
+table{
+    background-color: rgba(0, 0, 0, 0.493);
+    display: flex;
+    width: 50%;
+}
+
+.datos-paciente th{
+    text-align: center;
+    color: rgb(0, 0, 0); 
+    margin: 2rem;
+}
+
+.info-paciente td {
+    text-align: left;
+    color: rgb(0, 0, 0); 
+    margin: 1rem;
+}
+
+.eliminars{
+    color: red;
+}

@@ -1,0 +1,32 @@
+<form action="" (submit)="guardarCita()" [formGroup]="formulario" id="formulario">
+    <fieldset class="field-formulario">
+        <legend>
+            Nueva Cita
+        </legend>
+
+        <div class="campo">
+            <label for="">Nombre del paciente</label>
+            <input type="text" formControlName="nombrePaciente" required>
+        </div>
+
+        <div class="campo">
+            <label for="">Fecha cita</label>
+            <input type="date" formControlName="fechaCita" required>
+        </div>
+
+        <div class="campo">
+            <label for="">Hora cita</label>
+            <input type="text" formControlName="horaCita" required>
+        </div>
+
+        <div class="campo">
+            <label for="">Sintomas</label>
+            <input type="text" formControlName="sintomas" required>
+        </div>
+
+        <input type="hidden" id="idCita" formControlName="idCita">
+
+        <input type="submit" value="Agregar cita">
+
+    </fieldset>
+</form>

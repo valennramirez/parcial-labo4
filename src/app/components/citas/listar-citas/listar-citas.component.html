@@ -1,0 +1,29 @@
+<h1>Listado de Citas</h1>
+
+<table class="tabla-pacientes">
+    <thead class="datos-paciente">
+        <tr>
+            <th>Paciente</th>
+            <th>Fecha Cita</th>
+            <th>Hora Citas</th>
+            <th>Sintomas</th>
+        </tr>
+    </thead>
+    <tbody class="info-paciente">
+        <tr *ngFor="let item of listadoCitas">
+            <td>
+                {{item.nombrePaciente}}
+            </td>
+            <td>
+                {{item.fechaCita}}
+            </td>
+            <td>
+                {{item.horaCita}}
+            </td>
+            <td>
+                {{item.sintomas}}
+            </td>
+            <td class="eliminar"><a href="" (click)="eliminarCita(item.id)">Eliminar</a></td>
+        </tr>
+    </tbody>
+</table>
